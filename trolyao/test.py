@@ -24,6 +24,9 @@ wikipedia.set_lang('vi')
 language = 'vi'
 path = ChromeDriverManager().install()
 
+
+#thu test lai xem duoc khong
+
 def speak(text):
     print("Bot: {}".format(text))
     tts = gTTS(text=text, lang=language, slow=False)
